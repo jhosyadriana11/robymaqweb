@@ -4,6 +4,31 @@
     margin: 0;
 }
 
+.titulo {
+  position: relative;
+}
+
+.titulo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.61) 30%, rgba(10, 25, 47, 0.005) 70%, transparent 100%);
+  z-index: 1;
+}
+
+.titulo2{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
 /*-----------------------------------------To top button-----------------------------------------*/
 
 #scrollToTopBtn{
@@ -283,13 +308,33 @@ body.bodycontacto div.collapse li:nth-child(5) a
   transform: translateY(0);
 }
 
+.container-apartado3h {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#bolitasCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
 .apartado3h{
-    color: #fff;
+    /*color: #fff;*/
     padding: 4em 2em 1em 2em;
-    background-image: url("../img/fondoa3h2.png");
+    /*background-image: url("../img/fondoa3h2.png");
     background-size: cover;
     background-position: center -60px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    position: relative;
+    z-index: 1; 
+    color: #fff;
+    padding: 4em 2em 1em 2em;
 }
 
 .apartado3hp1{
@@ -390,6 +435,15 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 /*-----------------------------------------------SERVICIOS------------------------------------------*/
 
+.titulo .imgs{
+    display: block;
+    width: 100%;
+    height: 30em;
+    object-fit: cover;
+    object-position: 0em -22em;
+    filter: brightness(70%);
+}
+
 .apartado3sp2{
     display: flex;
     gap: 1em;
@@ -409,40 +463,36 @@ body.bodycontacto div.collapse li:nth-child(5) a
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 
-/*----------------------------------------------CERTIFICACIONES-------------------------------------*/
+/*----------------------------------------------NOSOTROS---------------------------------------------*/
 
-.tituloce {
-  position: relative;
-}
-
-.tituloce img{
+.titulo .imgn{
     display: block;
     width: 100%;
-    height: 10em;
+    height: 17em;
     object-fit: cover;
-    object-position: 0em -17em;
+    object-position: 0em -22em;
     filter: brightness(70%);
 }
 
-.tituloce::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.466) 30%, rgba(10, 25, 47, 0.005) 70%, transparent 100%);
-  z-index: 1;
+.apartado1np1{
+    padding: 3em 0 2em 0;
 }
 
-.tituloce2{
-    position: absolute;
-    top: 70%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    padding: 0.6em;
-    text-align: center;
+.img1np2{
+    width: 25em;
+    height: 15em;
+    
+}
+
+/*----------------------------------------------CERTIFICACIONES-------------------------------------*/
+
+.titulo .imgce{
+    display: block;
+    width: 100%;
+    height: 17em;
+    object-fit: cover;
+    object-position: 0em -15em;
+    filter: brightness(70%);
 }
 
 .apartado1ce{
@@ -534,6 +584,11 @@ body.bodycontacto div.collapse li:nth-child(5) a
     color: #001f3f; 
 }
 
+/*----------------------------------------------TERMINOS---------------------------------------------*/
+.apartado1t{
+    padding: 3em;
+    text-align: justify;
+}
 
 /*----------------------------------------------FOOTER----------------------------------------------*/
 

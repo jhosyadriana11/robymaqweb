@@ -6,6 +6,12 @@
 
 @section('content')
   <div class="container-c">
+    <div class="titulo">
+      <img src="img/robotamarillo.png" alt="robot">
+      <div class="titulo2">
+        <h1 class="whitefont">Contacto</h1>
+      </div>
+    </div>
     <div class="apartado1c">
       <p class="naranjafont bold neuropol center">ROBYMAQ</p>
       <h4 class="center negrita">Servicio de Robótica y Maquinaria S.A. de C.V.</h4>

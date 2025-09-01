@@ -6,10 +6,10 @@
 
 @section('content')
   <div class="container-ce">
-    <div class="tituloce">
-      <img src="img/robotamarillo.png" alt="robot">
-      <div class="tituloce2">
-        <h2 class="whitefont">Certificaciones</h2>
+    <div class="titulo">
+      <img src="img/robotamarillo.png" alt="robot" class="imgce">
+      <div class="titulo2">
+        <h1 class="whitefont">Certificaciones</h1>
       </div>
     </div>
     <div class="apartado1ce">

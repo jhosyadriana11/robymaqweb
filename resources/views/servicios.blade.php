@@ -6,6 +6,12 @@
 
 @section('content')
 	<div class="container-s">
+		<div class="titulo">
+			<img src="img/robotservicios.png" alt="robot" class="imgs">
+			<div class="titulo2">
+				<h1 class="whitefont">Servicios</h1>
+			</div>
+		</div>
 		<div class="apartado1s">
 			<p>Los servicios aquí presentados muestran una pequeña parte de lo que hacemos. Para más información de los mismos y los productos 
 			que se manejan, puede llamar al número proporcionado y con gusto le atenderemos.</p>

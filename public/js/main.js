@@ -51,6 +51,56 @@ observer.observe(heroContent);
 
 //-----------------------------------------------Animación apartado 3 home--------------------------------------
 
+const canvas = document.getElementById("bolitasCanvas");
+const ctx = canvas.getContext("2d");
+const container = document.querySelector(".container-apartado3h");
+
+let bolitas = [];
+
+function resizeCanvas() {
+  canvas.width = container.offsetWidth;
+  canvas.height = container.offsetHeight;
+}
+resizeCanvas();
+window.addEventListener("resize", resizeCanvas);
+
+// Crear bolitas random
+function crearBolitas(num) {
+  bolitas = [];
+  for (let i = 0; i < num; i++) {
+    bolitas.push({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      r: Math.random() * 20 + 10,
+      dx: (Math.random() - 0.5) * 1,
+      dy: (Math.random() - 0.5) * 1,
+    });
+  }
+}
+crearBolitas(40);
+
+// Animar
+function animar() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "rgba(0,150,255,0.6)";
+  
+  for (let b of bolitas) {
+    ctx.beginPath();
+    ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+    ctx.fill();
+
+    b.x += b.dx;
+    b.y += b.dy;
+
+    if (b.x < 0 || b.x > canvas.width) b.dx *= -1;
+    if (b.y < 0 || b.y > canvas.height) b.dy *= -1;
+  }
+
+  requestAnimationFrame(animar);
+}
+animar();
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const cuadros = document.querySelectorAll(".cuadro3h");
 

@@ -33,30 +33,33 @@
         <a class="boton-naranja btnder" href="Servicios">Leer más sobre servicios</a>
       </div>
     </div>
-    <div class="apartado3h">
-      <div class="apartado3hp1">
-        <h3>Algunas de nuestras especialidades</h3>
-      </div>
-      <br>
-      <div class="apartado3hp2">
-        <div class="cuadro3h">
-          <p class="bolita3h"><img src="img/bolita3.png" alt="especialidad" class="bolita3hp1"></p>
-          <p class="lead">Sistemas de visión.</p>
-          <p class="lead">Sistemas de soldadura inteligente, Spot, Arc Welding.</p>
+    <div class="container-apartado3h">
+      <canvas id="bolitasCanvas"></canvas>
+      <div class="apartado3h">
+        <div class="apartado3hp1">
+          <h3>Algunas de nuestras especialidades</h3>
         </div>
-        <div class="cuadro3h">
-          <p class="bolita3h"><img src="img/bolita1.png" alt="especialidad" class="bolita3hp1"></p>
-          <p class="lead">Software para industria 4.0.</p>
-          <p class="lead">Sistemas para paletizado automático.</p>
-        </div>
-        <div class="cuadro3h">
-          <p class="bolita3h"><img src="img/bolita2.png" alt="especialidad" class="bolita3hp1"></p>
-          <p class="lead">Servicios de mantenimiento y reparación de robots industriales.</p>
-        </div>
-        <div class="cuadro3h">
-          <p class="bolita3h"><img src="img/bolita4.png" alt="especialidad" class="bolita3hp1"></p>
-          <p class="lead">Software para mantenimiento predictivo de robots.</p>
-          <p class="lead">Fabricación de maquinaria en general.</p>
+        <br>
+        <div class="apartado3hp2">
+          <div class="cuadro3h">
+            <p class="bolita3h"><img src="img/bolita3.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="lead">Sistemas de visión.</p>
+            <p class="lead">Sistemas de soldadura inteligente, Spot, Arc Welding.</p>
+          </div>
+          <div class="cuadro3h">
+            <p class="bolita3h"><img src="img/bolita1.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="lead">Software para industria 4.0.</p>
+            <p class="lead">Sistemas para paletizado automático.</p>
+          </div>
+          <div class="cuadro3h">
+            <p class="bolita3h"><img src="img/bolita2.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="lead">Servicios de mantenimiento y reparación de robots industriales.</p>
+          </div>
+          <div class="cuadro3h">
+            <p class="bolita3h"><img src="img/bolita4.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="lead">Software para mantenimiento predictivo de robots.</p>
+            <p class="lead">Fabricación de maquinaria en general.</p>
+          </div>
         </div>
       </div>
     </div>
