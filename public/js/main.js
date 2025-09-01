@@ -14,7 +14,7 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
 }
 
-//-------------------------------------Transición texto apartado 1h-------------------------------------
+//-------------------------------------------Transición texto apartado 1h-------------------------------------
 
 const heroContent = document.querySelector('.hero-content');
 
@@ -71,18 +71,18 @@ function crearBolitas(num) {
     bolitas.push({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      r: Math.random() * 20 + 10,
+      r: Math.random() * 50 + 30,
       dx: (Math.random() - 0.5) * 1,
       dy: (Math.random() - 0.5) * 1,
     });
   }
 }
-crearBolitas(40);
+crearBolitas(50);
 
 // Animar
 function animar() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "rgba(0,150,255,0.6)";
+  ctx.fillStyle = "rgba(17, 79, 123, 0.11)";
   
   for (let b of bolitas) {
     ctx.beginPath();
@@ -116,6 +116,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   cuadros.forEach(cuadro => observer.observe(cuadro));
 });
+
+//-----------------------------------------------Animación apartado 4 home------------------------------------
+
+document.addEventListener("DOMContentLoaded", () => {
+  const elementos = document.querySelectorAll(".aparecer");
+
+  const observer = new IntersectionObserver((entradas) => {
+    entradas.forEach((entrada) => {
+      if (entrada.isIntersecting) {
+        entrada.target.classList.add("visible");
+      } else {
+        entrada.target.classList.remove("visible"); // quítalo si quieres que se quede siempre
+      }
+    });
+  }, {
+    threshold: 0.2
+  });
+
+  elementos.forEach((el) => observer.observe(el));
+});
+
+
+//------------------------------------------------Animación apartado 2 nosotros---------------------------------
+
 
 //------------------------------------------------Ver en tamaño completo cer-----------------------------------
 function toggleFullScreen1() {

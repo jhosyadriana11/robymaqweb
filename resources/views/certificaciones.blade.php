@@ -25,15 +25,15 @@
     <br />
     <div class="apartado2ce">
       <div>
-        <p><img src="img/electrical.png" alt="electrical"  class="imgce cer1"></p>
+        <p><img src="img/electrical.png" alt="electrical"  class="imgcer cer1"></p>
         <p><button class="boton-azul" onclick="toggleFullScreen1()">Ver en pantalla completa</button></p>
       </div>
       <div>
-        <p><img src="img/programming.png" alt="programming"  class="imgce cer2"></p>
+        <p><img src="img/programming.png" alt="programming"  class="imgcer cer2"></p>
         <p><button class="boton-azul" onclick="toggleFullScreen2()">Ver en pantalla completa</button></p>
       </div>
       <div>
-        <p><img src="img/spottool.png" alt="spottool" class="imgce cer3"></p>
+        <p><img src="img/spottool.png" alt="spottool" class="imgcer cer3"></p>
         <p><button class="boton-azul" onclick="toggleFullScreen3()">Ver en pantalla completa</button></p>
       </div>
     </div>

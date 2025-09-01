@@ -78,6 +78,15 @@
     font-size: 15px;
 }
 
+.leadg{
+    font-weight:400;
+    font-size: 22px;
+}
+
+.lead{
+    font-weight: 350;
+}
+
 .naranjafont{
     color:rgba(231,76,61,1);
     font-size: 29px;
@@ -227,14 +236,14 @@ body.bodycontacto div.collapse li:nth-child(5) a
     z-index: 1;
     transform: translateX(-100px);
     opacity: 0;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
-              opacity 0.3s ease-out;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), 
+              opacity 0.4s ease-out;
 }
 
 .hero-content.visible {
     transform: translateX(0);
     opacity: 1;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 .hero-content.hide {
@@ -301,6 +310,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     opacity: 0;
     transform: translateY(40px);
     transition: all 0.8s ease-out;
+    text-align: justify;
 }
 
 .apartado2hp2.show {
@@ -311,7 +321,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .container-apartado3h {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   overflow: hidden;
 }
 
@@ -325,16 +335,9 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 .apartado3h{
-    /*color: #fff;*/
     padding: 4em 2em 1em 2em;
-    /*background-image: url("../img/fondoa3h2.png");
-    background-size: cover;
-    background-position: center -60px;
-    background-repeat: no-repeat;*/
     position: relative;
     z-index: 1; 
-    color: #fff;
-    padding: 4em 2em 1em 2em;
 }
 
 .apartado3hp1{
@@ -349,7 +352,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .cuadro3h{
     opacity: 0; 
-    transition: opacity 2s ease;
+    transition: opacity 3s ease;
     width: 18em;
     height: 22em;
     padding: 1em;
@@ -366,7 +369,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 7.5em;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .bolita3hp1{
@@ -377,10 +380,12 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .apartado4h{
     padding: 1em;
+    text-align: justify;
 }
 
 .apartado4hsol{
     display: grid;
+    gap: 6em;
     grid-template-columns: repeat(2, 1fr);
     padding: 2em;
 }
@@ -406,41 +411,36 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 .apartado4hp1{
-    background-color: #0a192f;
-    width: 20em;
+    width: 25em;
     height:10em;
     border-radius: 10%;
     text-align: center;
 }
 
-.apartado4hp2{
-    background-color: #4a4a4a;
-    width: 10em;
-    height:10em;
-    border-radius: 10%;
+.img4h{
+    width: 16em;
+    height: 15em;
 }
 
-.apartado4hp3{
-    background-color:#4a4a4a;
-    width: 10em;
-    height:10em;
-    border-radius: 10%;
+.aparecer {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-.apartado4hp4{
-    background-color: #0a192f;
-    width: 10em;
-    height:10em;
-    border-radius: 10%;
+.aparecer.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
+
 /*-----------------------------------------------SERVICIOS------------------------------------------*/
 
 .titulo .imgs{
     display: block;
     width: 100%;
-    height: 30em;
+    height: 17em;
     object-fit: cover;
-    object-position: 0em -22em;
+    object-position: 0em -27em;
     filter: brightness(70%);
 }
 
@@ -470,7 +470,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     width: 100%;
     height: 17em;
     object-fit: cover;
-    object-position: 0em -22em;
+    object-position: 0em -21em;
     filter: brightness(70%);
 }
 
@@ -481,8 +481,13 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .img1np2{
     width: 25em;
     height: 15em;
-    
 }
+
+.apartado1np2{
+    padding: 0 3em 3em 3em;
+    text-align: justify;
+}
+
 
 /*----------------------------------------------CERTIFICACIONES-------------------------------------*/
 
@@ -506,7 +511,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     gap: 1.5em;
 }
 
-.imgce{
+.imgcer{
     width: 29em;
     height: 22em;
     box-shadow: 
@@ -517,6 +522,15 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 /*----------------------------------------------CONTACTO--------------------------------------------*/
+
+.titulo .imgc{
+    display: block;
+    width: 100%;
+    height: 17em;
+    object-fit: cover;
+    object-position: 0em -15em;
+    filter: brightness(70%);
+}
 
 .formulario{
     flex: 1; 

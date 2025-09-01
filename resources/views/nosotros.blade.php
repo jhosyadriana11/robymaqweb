@@ -19,11 +19,14 @@
       </div>
       <br />
       <div class="apartado1np2">
-        <p>
+        <h4 class="azulfont">¿Quién somos?</h4>
+        <p class="lead">
           Somos una empresa dedicada a la venta, integración, reparación y mantenimiento de robots industriales, 
           así como al diseño y fabricación de herramental de precisión o maquinaria automática.
           <br>
-          Fundada en el 2009. Nos dedicamos al mantenimiento de robots industriales con experiencia en la marca Fanuc, 
+          <br>
+          <h4 class="azulfont">Nuestra historia</h4>
+          <p class="lead">Fundada en el 2009. Nos dedicamos al mantenimiento de robots industriales con experiencia en la marca Fanuc, 
           así como la automatización de la industria metalmecánica en el área de robótica. También nos especializamos 
           en el diseño de maquinaria y equipo de integración para líneas de producción.
           <br>
