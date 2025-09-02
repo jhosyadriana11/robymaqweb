@@ -23,11 +23,11 @@
           <h4 class="azulfont">Operaciones y Servicio</h4>
         </div>
         <br />
-        <p class="azulfont negrita">Email:</p><p>angel.gonzalez@robymaq.com</p>
-        <p class="azulfont negrita">Teléfono oficina:</p><p>449 975 4474</p>
-        <p class="azulfont negrita">Dirección:</p><p>Calle Nazario Ortiz Garza #210, Colonia Santa Anita</p>
-        <p class="azulfont negrita">Código postal:</p><p>20169. Aguascalientes, Aguascalientes</p>
-        <p class="azulfont negrita">Horario:</p><p>Lunes a viernes de 8:00 a.m. a 5:00 p.m.</p>
+        <p class="azulfont negrita">Email:</p><p class="linea-izq">angel.gonzalez@robymaq.com</p>
+        <p class="azulfont negrita">Teléfono oficina:</p><p class="linea-izq">449 975 4474</p>
+        <p class="azulfont negrita">Dirección:</p><p class="linea-izq">Calle Nazario Ortiz Garza #210, Colonia Santa Anita</p>
+        <p class="azulfont negrita">Código postal:</p><p class="linea-izq">20169. Aguascalientes, Aguascalientes</p>
+        <p class="azulfont negrita">Horario:</p><p class="linea-izq">Lunes a viernes de 8:00 a.m. a 5:00 p.m.</p>
       </div>
       <div class="apartado3c">
         <div class="formulario">

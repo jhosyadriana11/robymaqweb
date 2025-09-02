@@ -77,12 +77,12 @@ function crearBolitas(num) {
     });
   }
 }
-crearBolitas(50);
+crearBolitas(60);
 
 // Animar
 function animar() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "rgba(17, 79, 123, 0.11)";
+  ctx.fillStyle = "rgba(32, 96, 141, 0.13)";
   
   for (let b of bolitas) {
     ctx.beginPath();
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (entrada.isIntersecting) {
         entrada.target.classList.add("visible");
       } else {
-        entrada.target.classList.remove("visible"); // quítalo si quieres que se quede siempre
+        entrada.target.classList.remove("visible");
       }
     });
   }, {
@@ -138,7 +138,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-//------------------------------------------------Animación apartado 2 nosotros---------------------------------
+//------------------------------------------------Animación apartado nosotros---------------------------------
+
 
 
 //------------------------------------------------Ver en tamaño completo cer-----------------------------------
