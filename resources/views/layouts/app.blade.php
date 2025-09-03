@@ -14,7 +14,7 @@
   <header class="header">
     <a href="/" class="navbar-brand">
       <div>
-        <img src="img/logobsf.png" id="logo" alt="logo">
+        <img src="img/logos/logobsf.png" id="logo" alt="logo">
       </div>
     </a>
     <nav class="navbar navbar-expand-lg" aria-label="navbar menu">
@@ -53,10 +53,10 @@
       </div>
       <div>
         <a href="https://www.facebook.com/profile.php?id=61579771585377&mibextid=ZbWKwL" class="me-4 link-secondary redesf">
-          <img src="img/fbb.png">
+          <img src="img/iconos/fbb.png">
         </a>
         <a href="https://www.linkedin.com/company/robymaq/mycompany/" class="me-4 link-secondary redesf">
-          <img src="img/inb.png">
+          <img src="img/iconos/inb.png">
         </a>
       </div>
     </section>
@@ -64,7 +64,7 @@
       <div class="container text-md-start mt-4">
         <div class="row leadsm">
           <div class="col-md-1 col-lg-2 col-xl-2 mb-4 mx-lg-auto mx-md-auto">
-            <img class="logof" src="img/logobsf.png" alt="logo" />
+            <img class="logof" src="img/logos/logobsf.png" alt="logo" />
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mb-md-0 mb-4 c2f">
             <h6 class="text-uppercase fw-bold mb-4 whitefont">Empresa</h6>

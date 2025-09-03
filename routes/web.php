@@ -14,6 +14,10 @@ Route::get('Servicios', function(){
     return view('servicios');
 });
 
+Route::get('Mantenimiento y reparacion', function(){
+    return view('servicio1');
+});
+
 Route::get('Certificaciones', function() {
     return view('certificaciones');
 });

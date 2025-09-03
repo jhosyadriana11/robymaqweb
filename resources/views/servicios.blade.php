@@ -7,7 +7,7 @@
 @section('content')
 	<div class="container-s">
 		<div class="titulo">
-			<img src="img/robots3.png" alt="robot" class="imgs">
+			<img src="img/fondost/robots3.png" alt="robot" class="imgs">
 			<div class="titulo2">
 				<h1 class="whitefont">Servicios</h1>
 			</div>
@@ -26,27 +26,27 @@
 			<br>
 			<div class="apartado3sp2">
 				<div class="boxcli">
-					<p><img src="img/nissanlogo.png" alt="nissan" class="c1imgs1"></p>
+					<p><img src="img/logos/nissanlogo.png" alt="nissan" class="c1imgs1"></p>
 					<p class="leadsm">Nissan Mexicana</p>
 				</div>
 				<div class="boxcli">
-					<p><img src="img/compaslogo.jfif" alt="compas" class="c1imgs1"></p>
+					<p><img src="img/logos/compaslogo.jfif" alt="compas" class="c1imgs1"></p>
 					<p class="leadsm">Cooperation Manufacturing Plant Aguascalientes (COMPAS)</p>
 				</div>
 				<div class="boxcli">
-					<p><img src="img/unipreslogo.jpeg" alt="unipres" class="c1imgs1"></p>
+					<p><img src="img/logos/unipreslogo.jpeg" alt="unipres" class="c1imgs1"></p>
 					<p class="leadsm">Unipres Mexicana</p>
 				</div>
 				<div class="boxcli">
-					<p><img src="img/jatcologo.png" alt="jatco" class="c1imgs1"></p>
+					<p><img src="img/logos/jatcologo.png" alt="jatco" class="c1imgs1"></p>
 					<p class="leadsm">Jatco de México</p>
 				</div>
 				<div class="boxcli">
-					<p><img src="img/ahrestylogo.jfif" alt="ahresty" class="c1imgs1"></p>
+					<p><img src="img/logos/ahrestylogo.jfif" alt="ahresty" class="c1imgs1"></p>
 					<p class="leadsm">Ahresty Mexicana</p>
 				</div>
 				<div class="boxcli">
-					<p><img src="img/gmlogo.jpg" alt="gm" class="c1imgs1"></p>
+					<p><img src="img/logos/gmlogo.jpg" alt="gm" class="c1imgs1"></p>
 					<p class="leadsm">General Motors</p>
 				</div>
 			</div>

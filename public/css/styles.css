@@ -465,6 +465,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 .c1imgs1{
+    margin: 1em;
     width: 6em;
     height: 6em;
     -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.264));
@@ -473,6 +474,85 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .boxcli{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219);
+}
+/*----------------------------------------------SERVICIOS 1--------------------------------------------*/
+.titulo .imgs1{
+    display: block;
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+    object-position: 0em -14em;
+    filter: brightness(70%);
+}
+
+.titulos1{
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
+.apartado1s1{
+    padding: 4em 6em 3em 6em;
+    display: flex;
+    gap: 2em;
+    align-items: center; 
+}
+
+.apartado1s1p1{
+    width: 7em;
+    height: 7em;
+    background-color: #0a192f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;  
+}
+
+.imglogosb{
+    display: block;
+}
+
+.collage{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 9.3em;
+    grid-gap: 0.7em;
+    padding: 0em 5em 4em 5em;
+}
+
+.collage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0.3em;
+    border-radius: 10%;
+}
+
+.collage img:hover {
+    transform:scale(1.1);
+}
+
+.collage img:nth-child(1) {
+    grid-row-start: span 2;
+    object-position: 0em -1em;
+}
+
+.collage img:nth-child(3) {
+    grid-row-start: span 2;
+    object-position: 0em -2em;
+}
+
+.collage img:nth-child(5) {
+    object-position: 0em -5em;
+}
+
+.collage img:nth-child(6) {
+    object-position: 0em -5em;
 }
 
 /*----------------------------------------------NOSOTROS---------------------------------------------*/
@@ -680,10 +760,6 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 /*----------------------------------------------TERMINOS---------------------------------------------*/
-.apartado1t{
-    padding: 3em;
-    text-align: justify;
-}
 
 .titulo .imgt{
     display: block;
@@ -696,11 +772,13 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .apartado1t{
     position: relative;
-    padding: 7em 7em;
+    z-index: 1;
+    background: #fff;
+    padding: 7em;
     margin: 5em;
     border-radius: 2em;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219);
-    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+    overflow: hidden;  
 }
 
 .apartado1t::before,
@@ -791,6 +869,7 @@ footer{
     border-top: 1.5px solid rgba(231,76,61,1) !important;
     box-shadow: 0em -0.2em 0.3em rgba(0, 0, 0, 0.2);
     color: #fff;
+    z-index: 1;
 }
 
 .borde-arriba{

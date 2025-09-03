@@ -7,7 +7,7 @@
 @section('content')
 	<div class="container-t">
 		<div class="titulo">
-			<img src="img/robots4.png" alt="robot" class="imgt">
+			<img src="img/fondost/robots4.png" alt="robot" class="imgt">
 			<div class="titulo2">
 				<h1 class="whitefont">Términos de uso</h1>
 			</div>

@@ -43,21 +43,21 @@
         <br>
         <div class="apartado3hp2">
           <div class="cuadro3h">
-            <p class="bolita3h"><img src="img/bolita3n.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="bolita3h"><img src="img/iconos/bolita3n.png" alt="especialidad" class="bolita3hp1"></p>
             <p class="leadg">Sistemas de visión.</p>
             <p class="leadg">Sistemas de soldadura inteligente, Spot, Arc Welding.</p>
           </div>
           <div class="cuadro3h">
-            <p class="bolita3h"><img src="img/bolita1n.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="bolita3h"><img src="img/iconos/bolita1n.png" alt="especialidad" class="bolita3hp1"></p>
             <p class="leadg">Software para industria 4.0.</p>
             <p class="leadg">Sistemas para paletizado automático.</p>
           </div>
           <div class="cuadro3h">
-            <p class="bolita3h"><img src="img/bolita2n.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="bolita3h"><img src="img/iconos/bolita2n.png" alt="especialidad" class="bolita3hp1"></p>
             <p class="leadg">Servicios de mantenimiento y reparación de robots industriales.</p>
           </div>
           <div class="cuadro3h">
-            <p class="bolita3h"><img src="img/bolita4n.png" alt="especialidad" class="bolita3hp1"></p>
+            <p class="bolita3h"><img src="img/iconos/bolita4n.png" alt="especialidad" class="bolita3hp1"></p>
             <p class="leadg">Software para mantenimiento predictivo de robots.</p>
             <p class="leadg">Fabricación de maquinaria en general.</p>
           </div>
@@ -76,7 +76,7 @@
       <div class="apartado4hsol">
         <div class="formaciona4h aparecer">
           <div class="apartado4hp1">
-            <img src="img/formacionia.jpg" alt="formación" class="img4h">
+            <img src="img/bloques/formacionia.jpg" alt="formación" class="img4h">
           </div>
           <div>
             <h4 class="azulfont">Formación</h4>
@@ -87,7 +87,7 @@
         </div>
         <div class="mantenimientoa4h aparecer">
           <div class="apartado4hp1">
-            <img src="img/mantenimientoia.jpg" alt="mantenimiento" class="img4h">
+            <img src="img/bloques/mantenimientoia.jpg" alt="mantenimiento" class="img4h">
           </div>
           <div>
             <h4 class="azulfont">Mantenimiento Industrial</h4>
@@ -98,7 +98,7 @@
         </div>
         <div class="ingenieriaa4h aparecer">
           <div class="apartado4hp1">
-            <img src="img/ingenieriaia.jpg" alt="ingenieria" class="img4h">
+            <img src="img/bloques/ingenieriaia.jpg" alt="ingenieria" class="img4h">
           </div>
           <div>
             <h4 class="azulfont">Ingeniería</h4>
@@ -109,7 +109,7 @@
         </div>
         <div class="automatizaciona4h aparecer">
           <div class="apartado4hp1">
-            <img src="img/automatizacionia.jpg" alt="automatizacion" class="img4h">
+            <img src="img/bloques/automatizacionia.jpg" alt="automatizacion" class="img4h">
           </div>
           <div>
             <h4 class="azulfont">Robótica y Automatización</h4>

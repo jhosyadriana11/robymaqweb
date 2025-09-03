@@ -23,6 +23,11 @@ class Controller
         return view('servicios');
     }
 
+    public function servicios1()
+    {
+        return view('servicio1');
+    }
+
     public function certificaciones()
     {
         return view('certificaciones');
