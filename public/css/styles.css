@@ -217,7 +217,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .hero {
     height: 85vh;
-    background: url("../img/herocut.png") center/cover no-repeat;
+    background: url("../img/fondost/herocut.png") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -562,14 +562,14 @@ body.bodycontacto div.collapse li:nth-child(5) a
     width: 100%;
     height: 19em;
     object-fit: cover;
-    object-position: 0em -14em;
+    object-position: 0em -48em;
     filter: brightness(70%);
 }
 
 .titulos2{
     position: absolute;
     top: 70%;
-    left: 32%;
+    left: 31%;
     transform: translate(-50%, -50%);
     z-index: 2;
     padding: 0.6em;
@@ -634,8 +634,329 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 .collage2 img:nth-child(6) {
+    object-position: 0em -2em;
+}
+
+/*----------------------------------------------SERVICIOS 3-------------------------------------------*/
+.titulo .imgs3{
+    display: block;
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+    object-position: 0em -45em;
+    filter: brightness(70%);
+}
+
+.titulos3{
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
+.apartado1s3{
+    padding: 4em 6em 3em 6em;
+    display: flex;
+    gap: 2em;
+    align-items: center; 
+}
+
+.apartado1s3p1{
+    width: 7em;
+    height: 7em;
+    background-color: #0a192f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;  
+}
+
+.collage3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 9.3em;
+    grid-gap: 0.7em;
+    padding: 0em 5em 4em 5em;
+}
+
+.collage3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0.3em;
+    border-radius: 10%;
+}
+
+.collage3 img:hover {
+    transform:scale(1.1);
+}
+
+.collage3 img:nth-child(1) {
     object-position: 0em -7em;
 }
+
+.collage3 img:nth-child(2) {
+    grid-row-start: span 2;
+    object-position: 0em -8em;
+}
+
+.collage3 img:nth-child(3) {
+    object-position: 0em -15em;
+}
+
+.collage3 img:nth-child(4) {
+    grid-row-start: span 2;
+    object-position: 0em -2em;
+}
+
+.collage3 img:nth-child(5) {
+    object-position: 0em -6em;
+}
+
+/*----------------------------------------------SERVICIOS 4-------------------------------------------*/
+
+.titulo .imgs4{
+    display: block;
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+    object-position: 0em -30em;
+    filter: brightness(70%);
+}
+
+.titulos4{
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
+.apartado1s4{
+    padding: 4em 6em 3em 6em;
+    display: flex;
+    gap: 2em;
+    align-items: center; 
+}
+
+.apartado1s4p1{
+    width: 7em;
+    height: 7em;
+    background-color: #0a192f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;  
+}
+
+.collage4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 9.3em;
+    grid-gap: 0.7em;
+    padding: 0em 5em 4em 5em;
+}
+
+.collage4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0.3em;
+    border-radius: 10%;
+}
+
+.collage4 img:hover {
+    transform:scale(1.1);
+}
+
+.collage4 img:nth-child(2) {
+    grid-column-start: span 2;
+    object-position: 0em -5em;
+}
+
+.collage4 img:nth-child(5) {
+    grid-column-start: span 2;
+    object-position: 0em 0em;
+}
+
+.collage4 img:nth-child(7) {
+    grid-column-start: span 2;
+    object-position: 0em 0em;
+}
+
+/*----------------------------------------------SERVICIOS 5--------------------------------------------*/
+
+.titulo .imgs5{
+    display: block;
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+    object-position: 0em -28em;
+    filter: brightness(70%);
+}
+
+.titulos5{
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
+.apartado1s5{
+    padding: 4em 6em 3em 6em;
+    display: flex;
+    gap: 2em;
+    align-items: center; 
+}
+
+.apartado1s5p1{
+    width: 7em;
+    height: 7em;
+    background-color: #0a192f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;  
+}
+
+.collage5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 9.3em;
+    grid-gap: 0.7em;
+    padding: 0em 5em 4em 5em;
+}
+  
+.collage5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0.3em;
+    border-radius: 10%;
+}
+
+.collage5 img:hover {
+    transform:scale(1.1);
+}
+
+.collage5 img:nth-child(1) {
+    grid-row-start: span 2;
+    object-position: 0em -4em;
+}
+
+.collage5 img:nth-child(2) {
+    object-position: 0em -7em;
+}
+
+.collage5 img:nth-child(3) {
+    grid-row-start: span 2;
+    object-position: 0em 0em;
+}
+
+.collage5 img:nth-child(5) {
+    object-position: 0em -4em;
+}
+/*----------------------------------------------SERVICIOS 6-------------------------------------------*/
+
+.titulo .imgs6{
+    display: block;
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+    object-position: 0em -40em;
+    filter: brightness(70%);
+}
+
+.titulos6{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
+.apartado1s6{
+    padding: 4em 6em 3em 6em;
+    display: flex;
+    gap: 2em;
+    align-items: center; 
+}
+
+.apartado1s6p1{
+    width: 7em;
+    height: 7em;
+    background-color: #0a192f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;  
+}
+
+.collage6 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 9.3em;
+    grid-gap: 0.7em;
+    padding: 0em 5em 4em 5em;
+}
+
+.collage6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0.3em;
+    border-radius: 10%;
+}
+
+.collage6 img:hover {
+    transform:scale(1.1);
+}
+
+.collage6 img:nth-child(1) {
+    grid-column-start: span 2;
+    object-position: 0em -8em;
+}
+
+.collage6 img:nth-child(2) {
+    object-position: 0em -2em;
+}
+
+.collage6 img:nth-child(3) {
+    grid-column-start: span 2;
+    object-position: 0em -15em;
+}
+
+.collage6 img:nth-child(4) {
+    object-position: 0em -3em;
+}
+
+.collage6 img:nth-child(5) {
+    grid-column-start: span 2;
+    object-position: 0em -7em;
+}
+
+.collage6 img:nth-child(6) {
+    object-position: 0em -9em;
+}
+
+.collage6 img:nth-child(7) {
+    object-position: 0em -5em;
+}
+
 /*----------------------------------------------NOSOTROS---------------------------------------------*/
 
 .titulo .imgn{
@@ -650,11 +971,18 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .contenedorn {
     position: relative;
     padding: 7em 7em;
-    margin: 5em;
     border-radius: 2em;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219);
     overflow: hidden;
+}
 
+.apartado1nimg{
+    display: flex;
+}
+
+.img1n{
+    width: 25em;
+    height: 25em;
+    padding: 3em 1em 0 0;
 }
 
 .apartado1n div {

@@ -18,7 +18,7 @@
       </div>
       <div class="apartado1s2p2">
         <h4 class="azulfont">Servicio de programación de robots</h4>
-        <p class="lead justify">Servicio de programación de robots Fanuc y ABB para mejorar la productividad y 
+        <p class="lead justify linea-izq">Servicio de programación de robots Fanuc y ABB para mejorar la productividad y 
           la eficiencia en la producción mediante la optimización de líneas y la reducción del tiempo ciclo.
         </p>
       </div>

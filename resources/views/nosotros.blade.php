@@ -13,30 +13,36 @@
       </div>
     </div>
     <div class="contenedorn">
-      <div class="apartado1n">
-        <div class="apartado1np1">
-          <p class="naranjafont bold neuropol center">ROBYMAQ</p>
-          <h4 class="center negrita">Servicio de Robótica y Maquinaria S.A. de C.V.</h4>
+      <div class="apartado1np1">
+        <p class="naranjafont bold neuropol center">ROBYMAQ</p>
+        <h4 class="center negrita">Servicio de Robótica y Maquinaria S.A. de C.V.</h4>
+      </div>
+      <br />
+      <div class="apartado1nimg">
+        <div>
+          <p><img src="img/bloques/robymaq.png" alt="robymaq" class="img1n"></p>
         </div>
         <br />
         <br />
-        <div class="apartado1np2">
-          <h4 class="azulfont">¿Quién somos?</h4>
-          <p class="lead linea-izq">
-            Somos una empresa dedicada a la venta, integración, reparación y mantenimiento de robots industriales, 
-            así como al diseño y fabricación de herramental de precisión o maquinaria automática.
-          </p>
-          <br>
-          <br>
-          <h4 class="azulfont">Nuestra historia</h4>
-          <p class="lead linea-izq">Fundada en el 2009. Nos dedicamos al mantenimiento de robots industriales con experiencia en la marca Fanuc, 
-            así como la automatización de la industria metalmecánica en el área de robótica. También nos especializamos 
-            en el diseño de maquinaria y equipo de integración para líneas de producción.
+        <div class="apartado1n">
+          <div class="apartado1np2">
+            <h4 class="azulfont">¿Quién somos?</h4>
+            <p class="lead linea-izq">
+              Somos una empresa dedicada a la venta, integración, reparación y mantenimiento de robots industriales, 
+              así como al diseño y fabricación de herramental de precisión o maquinaria automática.
+            </p>
             <br>
-            Nuestro servicio de robots industriales cubre la reparación de cualquier tipo de avería.
-          </p>
-          <br />
-          <br />
+            <br>
+            <h4 class="azulfont">Nuestra historia</h4>
+            <p class="lead linea-izq">Fundada en el 2009. Nos dedicamos al mantenimiento de robots industriales con experiencia en la marca Fanuc, 
+              así como la automatización de la industria metalmecánica en el área de robótica. También nos especializamos 
+              en el diseño de maquinaria y equipo de integración para líneas de producción.
+              <br>
+              Nuestro servicio de robots industriales cubre la reparación de cualquier tipo de avería.
+            </p>
+            <br />
+            <br />
+          </div>
         </div>
       </div>
       <div class="apartado2n">

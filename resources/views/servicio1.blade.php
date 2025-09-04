@@ -18,7 +18,7 @@
       </div>
       <div class="apartado1s1p2">
         <h4 class="azulfont">Servicio y mantenimiento a robots industriales</h4>
-        <p class="lead justify">Mantenimiento preventivo, reparación de servomotores, solución de fallas (throubleshoting), venta y 
+        <p class="lead justify linea-izq">Mantenimiento preventivo, reparación de servomotores, solución de fallas (throubleshoting), venta y 
           reparación de Teach Pendant, reparación de tarjetas electrónicas, cambio de elementos eléctricos y mecánicos 
           y soporte de producción.
         </p>
