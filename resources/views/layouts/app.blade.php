@@ -79,7 +79,7 @@
             <p><a href="Programacion" class="link-light text-decoration-none">Programación</a></p>
             <p><a href="Maquinado de partes" class="link-light text-decoration-none">Maquinado de partes</a></p>
             <p><a href="Diseño y fabricacion" class="link-light text-decoration-none">Diseño y fabricación</a></p>
-            <p><a href="Apoyo para proyectos" class="link-light text-decoration-none">Integración y automatización</a></p>
+            <p><a href="Integracion y automatizacion" class="link-light text-decoration-none">Integración y automatización</a></p>
             <p><a href="Capacitacion" class="link-light text-decoration-none">Capacitación</a></p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-3 mb-md-0 mb-4 c2f">

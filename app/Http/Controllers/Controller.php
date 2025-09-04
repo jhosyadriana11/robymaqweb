@@ -28,6 +28,31 @@ class Controller
         return view('servicio1');
     }
 
+    public function servicios2()
+    {
+        return view('servicio2');
+    }
+
+    public function servicios3()
+    {
+        return view('servicio3');
+    }
+
+    public function servicios4()
+    {
+        return view('servicio4');
+    }
+
+    public function servicios5()
+    {
+        return view('servicio5');
+    }
+
+    public function servicios6()
+    {
+        return view('servicio6');
+    }
+
     public function certificaciones()
     {
         return view('certificaciones');
