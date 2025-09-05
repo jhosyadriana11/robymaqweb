@@ -972,7 +972,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .contenedorn {
     position: relative;
-    padding: 7em 7em;
+    padding: 3em 7em;
     border-radius: 2em;
     overflow: hidden;
 }
@@ -984,7 +984,11 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .img1n{
     width: 25em;
     height: 25em;
-    padding: 2em 1em 0 0;
+    padding: 1em 1em 0 0;
+}
+
+.apartado1n{
+    padding: 1em;
 }
 
 .apartado1n div {
@@ -992,7 +996,6 @@ body.bodycontacto div.collapse li:nth-child(5) a
     z-index: 2;
 }
 
-.apartado1n::before,
 .apartado1n::after {
     content: "";
     position: absolute;
@@ -1059,6 +1062,10 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .apartado2n{
     padding: 0 3em 3em 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
 }
 
 /*----------------------------------------------CERTIFICACIONES-------------------------------------*/
@@ -1151,8 +1158,8 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .c1c{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:3em;
-    padding: 3em 10em 4em 10em;
+    gap:1em;
+    padding: 3em 3em 4em 3em;
 }
 
 .apartado1c{
@@ -1160,11 +1167,11 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 .apartado2c{
-    padding: 3em 5em 1em 8em;
+    padding: 3em 1em 1em 6em;
 }
 
 .apartado3c{
-    padding: 1em 5em 1em 10em;
+    padding: 1em 5em 1em 7em;
 }
 
 .apartado3cp1 { 
@@ -1183,11 +1190,21 @@ body.bodycontacto div.collapse li:nth-child(5) a
     filter: brightness(70%);
 }
 
+.titulost{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
 .apartado1t{
     position: relative;
     z-index: 1;
     background: #fff;
-    padding: 7em;
+    padding: 3em 7em 5em 7em;
     margin: 5em;
     border-radius: 2em;
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
@@ -1229,6 +1246,36 @@ body.bodycontacto div.collapse li:nth-child(5) a
   100% { transform: translateX(0) scale(1); opacity: 0.6; }
 }
 
+/*----------------------------------------------POLITICAS-------------------------------------------*/
+.titulo .imgp{
+    display: block;
+    width: 100%;
+    height: 17em;
+    object-fit: cover;
+    object-position: 0em -18em;
+    filter: brightness(70%);
+}
+
+.titulosp{
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 0.6em;
+    text-align: center;
+} 
+
+.apartado1p{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding: 3em 7em 5em 7em;
+    margin: 5em;
+    border-radius: 2em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+    overflow: hidden;  
+}
 /*----------------------------------------------FOOTER----------------------------------------------*/
 
 .colorf{

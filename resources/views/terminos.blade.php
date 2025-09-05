@@ -8,11 +8,11 @@
 	<div class="container-t">
 		<div class="titulo">
 			<img src="img/fondost/robots4.png" alt="robot" class="imgt">
-			<div class="titulo2">
+			<div class="titulost">
 				<h1 class="whitefont">Términos de uso</h1>
 			</div>
 		</div>
-		<div class="apartado1t">
+		<div class="apartado1t justify">
 			<div class="apartado1np1">
 				<p class="naranjafont bold neuropol center">ROBYMAQ</p>
 				<h4 class="center negrita">Servicio de Robótica y Maquinaria S.A. de C.V.</h4>
