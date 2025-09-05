@@ -40,7 +40,7 @@
         <div class="apartado3hp1">
           <h3 class="azulfont">Algunas de nuestras especialidades</h3>
         </div>
-        <br>
+        <br />
         <div class="apartado3hp2">
           <div class="cuadro3h">
             <p class="bolita3h"><img src="img/iconos/bolita3n.png" alt="especialidad" class="bolita3hp1"></p>

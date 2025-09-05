@@ -325,7 +325,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .container-apartado3h {
   position: relative;
   width: 100%;
-  min-height: 90vh;
+  min-height: 80vh;
   overflow: hidden;
 }
 
@@ -361,6 +361,8 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 22em;
     padding: 1em;
     margin: 1em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+    border-radius: 15%;
 }
 
 .cuadro3h.show {
@@ -982,7 +984,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .img1n{
     width: 25em;
     height: 25em;
-    padding: 3em 1em 0 0;
+    padding: 2em 1em 0 0;
 }
 
 .apartado1n div {
@@ -1104,7 +1106,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .formulario{
     flex: 1; 
-    width: 40em;
+    width: 45em;
     background: #f9f9f9; 
     padding: 2rem; 
     border-radius: 12px; 
@@ -1147,8 +1149,10 @@ body.bodycontacto div.collapse li:nth-child(5) a
 }
 
 .c1c{
-    display: flex;
-    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:3em;
+    padding: 3em 10em 4em 10em;
 }
 
 .apartado1c{

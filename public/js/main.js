@@ -64,7 +64,7 @@ function resizeCanvas() {
 resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
 
-// Crear bolitas random
+// -----------------bolitas random
 function crearBolitas(num) {
   bolitas = [];
   for (let i = 0; i < num; i++) {
@@ -77,9 +77,9 @@ function crearBolitas(num) {
     });
   }
 }
-crearBolitas(60);
+crearBolitas(70);
 
-// Animar
+// ---------------------animar
 function animar() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "rgba(32, 96, 141, 0.13)";
@@ -192,4 +192,6 @@ $('#contact-form').submit(function(event) {
     this.submit();
   }
 });
+
+//----------------------------------------------Animacion formulario---------------------------------------------
 

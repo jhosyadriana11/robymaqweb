@@ -23,11 +23,11 @@
           <h4 class="azulfont">Operaciones y Servicio</h4>
         </div>
         <br />
-        <p class="azulfont negrita">Email:</p><p class="linea-izq">angel.gonzalez@robymaq.com</p>
-        <p class="azulfont negrita">Teléfono oficina:</p><p class="linea-izq">449 975 4474</p>
-        <p class="azulfont negrita">Dirección:</p><p class="linea-izq">Calle Nazario Ortiz Garza #210, Colonia Santa Anita</p>
-        <p class="azulfont negrita">Código postal:</p><p class="linea-izq">20169. Aguascalientes, Aguascalientes</p>
-        <p class="azulfont negrita">Horario:</p><p class="linea-izq">Lunes a viernes de 8:00 a.m. a 5:00 p.m.</p>
+        <p class="azulfont negrita">Email:</p><p class="linea-izq lead">angel.gonzalez@robymaq.com</p>
+        <p class="azulfont negrita">Teléfono oficina:</p><p class="linea-izq lead">449 975 4474</p>
+        <p class="azulfont negrita">Dirección:</p><p class="linea-izq lead">Calle Nazario Ortiz Garza #210, Colonia Santa Anita</p>
+        <p class="azulfont negrita">Código postal:</p><p class="linea-izq lead">20169. Aguascalientes, Aguascalientes</p>
+        <p class="azulfont negrita">Horario:</p><p class="linea-izq lead">Lunes a viernes de 8:00 a.m. a 5:00 p.m.</p>
       </div>
       <div class="apartado3c">
         <div class="formulario">
@@ -35,16 +35,16 @@
           <form method="POST" action="Contacto" role="form" autocomplete="off" onsubmit="return validateForm()">
             @csrf
             <input type="text" name="honeypot" autocomplete="off" id="honeypot">
-            <label for="name">Nombre</label>
+            <label for="name" class="leadc">Nombre</label>
             <input type="text" id="nombre" name="name" placeholder="Tu nombre completo">
 
-            <label for="email">Correo electrónico</label>
+            <label for="email" class="leadc">Correo electrónico</label>
             <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com">
 
-            <label for="subject">Asunto</label>
+            <label for="subject" class="leadc">Asunto</label>
             <input type="text" id="subject" name="subject" placeholder="Asunto del mensaje">
 
-            <label for="content">Mensaje</label>
+            <label for="content" class="leadc">Mensaje</label>
             <textarea id="content" name="content" rows="5" placeholder="Escribe tu mensaje"></textarea>
 
             <span class="msg-error error"></span>
