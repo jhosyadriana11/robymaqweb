@@ -26,7 +26,6 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     padding: 0.6em;
-    text-align: center;
 } 
 
 /*-----------------------------------------To top button-----------------------------------------*/
@@ -450,8 +449,9 @@ body.bodycontacto div.collapse li:nth-child(5) a
     filter: brightness(70%);
 }
 
-.apartado1s{
-    padding: 3em;
+.ttexts{
+    padding: 0 2em 2em 45%;
+    text-align: justify;
 }
 
 .apartado2s{
@@ -461,9 +461,23 @@ body.bodycontacto div.collapse li:nth-child(5) a
     padding: 1em 4em 1em 4em;
 }
 
+.serbtn{
+    padding: 1em;
+}
+
+.links{
+    text-decoration: none;
+    color: #000000;
+}
+
+.links:hover{
+   color: rgba(231,76,61,1);
+}
+
 .servicio1{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
-   
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .imgss1{
@@ -472,11 +486,15 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 10em;
     background-position: 0em -4em;
     background-size:cover;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3), 
+        0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .servicio2{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
-  
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .imgss2{
@@ -489,7 +507,8 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .servicio3{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
-  
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .imgss3{
@@ -502,7 +521,8 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .servicio4{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
-  
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .imgss4{
@@ -515,7 +535,8 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .servicio5{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
-  
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .imgss5{
@@ -528,7 +549,8 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .servicio6{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
-  
+    border-radius: 3%;
+    overflow: hidden;
 }
 
 .imgss6{
@@ -618,7 +640,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 100%;
     object-fit: cover;
     margin: 0.3em;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .collage img:hover {
@@ -694,7 +716,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 100%;
     object-fit: cover;
     margin: 0.3em;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .collage2 img:hover {
@@ -775,7 +797,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 100%;
     object-fit: cover;
     margin: 0.3em;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .collage3 img:hover {
@@ -856,7 +878,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 100%;
     object-fit: cover;
     margin: 0.3em;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .collage4 img:hover {
@@ -930,7 +952,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 100%;
     object-fit: cover;
     margin: 0.3em;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .collage5 img:hover {
@@ -1006,7 +1028,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 100%;
     object-fit: cover;
     margin: 0.3em;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .collage6 img:hover {
@@ -1072,47 +1094,26 @@ body.bodycontacto div.collapse li:nth-child(5) a
     padding: 1em 1em 0 0;
 }
 
-.apartado1n{
-    padding: 1em;
+.apartado2n{
+    padding: 0 3em 3em 3em;
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+#bolitasCanvasn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .apartado1n div {
     position: relative;
     z-index: 2;
-}
-
-.apartado1n::after {
-    content: "";
-    position: absolute;
-    width: 30em;
-    height: 30em;
-    background: rgba(32, 96, 141, 0.13);
-    border-radius: 50% 40% 60% 50%;
-    opacity: 0.6;
-    z-index: 1;
-}
-
-.apartado1n::before {
-    top: -50px;
-    left: -100px;
-    animation: aparecerIzq 1.2s ease-out forwards;
-}
-
-.apartado1n::after {
-    bottom: -50px;
-    right: -100px;
-    background: rgba(32, 96, 141, 0.205);
-    animation: aparecerDer 1.2s ease-out forwards;
-}
-
-@keyframes aparecerIzq {
-  0% { transform: translateX(-100px) scale(0); opacity: 0; }
-  100% { transform: translateX(0) scale(1); opacity: 0.6; }
-}
-
-@keyframes aparecerDer {
-  0% { transform: translateX(100px) scale(0); opacity: 0; }
-  100% { transform: translateX(0) scale(1); opacity: 0.6; }
 }
 
 .img1np2{
@@ -1143,14 +1144,6 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .apartado1np2{
     padding: 0 3em 3em 3em;
     text-align: justify;
-}
-
-.apartado2n{
-    padding: 0 3em 3em 3em;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-
 }
 
 /*----------------------------------------------CERTIFICACIONES-------------------------------------*/
@@ -1228,6 +1221,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     border-radius: 8px; 
     cursor: pointer; 
     font-size: 1rem; 
+    width: 20%;
 }
 
 .formulario button:hover { 
@@ -1292,7 +1286,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     padding: 3em 7em 5em 7em;
     margin: 5em;
     border-radius: 2em;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
     overflow: hidden;  
 }
 
@@ -1358,7 +1352,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     padding: 3em 7em 5em 7em;
     margin: 5em;
     border-radius: 2em;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
     overflow: hidden;  
 }
 /*----------------------------------------------FOOTER----------------------------------------------*/

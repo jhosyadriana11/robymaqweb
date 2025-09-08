@@ -40,12 +40,13 @@
               <br>
               Nuestro servicio de robots industriales cubre la reparación de cualquier tipo de avería.
             </p>
-            <br />
-            <br />
           </div>
         </div>
       </div>
+      <br />
+      <br />
       <div class="apartado2n">
+        <canvas id="bolitasCanvasn"></canvas>
         <h4 class="center azulfont">Nuestras políticas de calidad</h4>
         <br />
         <h5 class="azulfont">Misión</h5>

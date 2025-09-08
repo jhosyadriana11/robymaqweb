@@ -140,7 +140,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //------------------------------------------------Animación apartado nosotros---------------------------------
 
+const canvasn = document.getElementById("bolitasCanvasn");
+const ctxn = canvasn.getContext("2d");
+const containern = document.querySelector(".apartado2n");
 
+let bolitasn = [];
+
+function resizeCanvasn() {
+  canvasn.width = containern.offsetWidth;
+  canvasn.height = containern.offsetHeight;
+}
+resizeCanvasn();
+window.addEventListener("resize", resizeCanvasn);
+
+// -----------------bolitas random
+function crearBolitasn(num) {
+  bolitasn = [];
+  for (let i = 0; i < num; i++) {
+    bolitasn.push({
+      x: Math.random() * canvasn.width,
+      y: Math.random() * canvasn.height,
+      r: Math.random() * 50 + 30,
+      dx: (Math.random() - 0.5) * 1,
+      dy: (Math.random() - 0.5) * 1,
+    });
+  }
+}
+crearBolitasn(70);
+
+// ---------------------animar
+function animarn() {
+  ctxn.clearRect(0, 0, canvasn.width, canvasn.height);
+  ctxn.fillStyle = "rgba(32, 96, 141, 0.13)";
+  
+  for (let b of bolitasn) {
+    ctxn.beginPath();
+    ctxn.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+    ctxn.fill();
+
+    b.x += b.dx;
+    b.y += b.dy;
+
+    if (b.x < 0 || b.x > canvasn.width) b.dx *= -1;
+    if (b.y < 0 || b.y > canvasn.height) b.dy *= -1;
+  }
+
+  requestAnimationFrame(animarn);
+}
+animarn();
 
 //------------------------------------------------Ver en tamaño completo cer-----------------------------------
 function toggleFullScreen1() {
@@ -193,5 +240,4 @@ $('#contact-form').submit(function(event) {
   }
 });
 
-//----------------------------------------------Animacion formulario---------------------------------------------
 
