@@ -45,6 +45,7 @@
       </div>
       <br />
       <br />
+      <br />
       <div class="apartado2n">
         <canvas id="bolitasCanvasn"></canvas>
         <h4 class="center azulfont">Nuestras políticas de calidad</h4>

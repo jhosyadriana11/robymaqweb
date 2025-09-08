@@ -18,19 +18,22 @@ function scrollToTop() {
 
 const heroContent = document.querySelector('.hero-content');
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      heroContent.classList.add('visible');
-      heroContent.classList.remove('hide');
-    } else {
-      heroContent.classList.remove('visible');
-      heroContent.classList.add('hide');
-    }
-  });
-}, { threshold: 0.9 }); 
+if (heroContent) { 
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        heroContent.classList.add('visible');
+        heroContent.classList.remove('hide');
+      } else {
+        heroContent.classList.remove('visible');
+        heroContent.classList.add('hide');
+      }
+    });
+  }, { threshold: 0.9 }); 
 
-observer.observe(heroContent);
+  observer.observe(heroContent);
+}
+
 //-----------------------------------------------Animación apartado 2 home-------------------------------------
 
   document.addEventListener("DOMContentLoaded", () => {
@@ -52,54 +55,54 @@ observer.observe(heroContent);
 //-----------------------------------------------Animación apartado 3 home--------------------------------------
 
 const canvas = document.getElementById("bolitasCanvas");
-const ctx = canvas.getContext("2d");
 const container = document.querySelector(".container-apartado3h");
 
-let bolitas = [];
+if (canvas && container) {
+  const ctx = canvas.getContext("2d");
 
-function resizeCanvas() {
-  canvas.width = container.offsetWidth;
-  canvas.height = container.offsetHeight;
-}
-resizeCanvas();
-window.addEventListener("resize", resizeCanvas);
+  let bolitas = [];
 
-// -----------------bolitas random
-function crearBolitas(num) {
-  bolitas = [];
-  for (let i = 0; i < num; i++) {
-    bolitas.push({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      r: Math.random() * 50 + 30,
-      dx: (Math.random() - 0.5) * 1,
-      dy: (Math.random() - 0.5) * 1,
-    });
+  function resizeCanvas() {
+    canvas.width = container.offsetWidth;
+    canvas.height = container.offsetHeight;
   }
-}
-crearBolitas(70);
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
 
-// ---------------------animar
-function animar() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "rgba(32, 96, 141, 0.13)";
-  
-  for (let b of bolitas) {
-    ctx.beginPath();
-    ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
-    ctx.fill();
-
-    b.x += b.dx;
-    b.y += b.dy;
-
-    if (b.x < 0 || b.x > canvas.width) b.dx *= -1;
-    if (b.y < 0 || b.y > canvas.height) b.dy *= -1;
+  function crearBolitas(num) {
+    bolitas = [];
+    for (let i = 0; i < num; i++) {
+      bolitas.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 50 + 30,
+        dx: (Math.random() - 0.5) * 1,
+        dy: (Math.random() - 0.5) * 1,
+      });
+    }
   }
+  crearBolitas(50);
 
-  requestAnimationFrame(animar);
+  function animar() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "rgba(32, 96, 141, 0.13)";
+
+    for (let b of bolitas) {
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+      ctx.fill();
+
+      b.x += b.dx;
+      b.y += b.dy;
+
+      if (b.x < 0 || b.x > canvas.width) b.dx *= -1;
+      if (b.y < 0 || b.y > canvas.height) b.dy *= -1;
+    }
+
+    requestAnimationFrame(animar);
+  }
+  animar();
 }
-animar();
-
 
 document.addEventListener("DOMContentLoaded", () => {
   const cuadros = document.querySelectorAll(".cuadro3h");
@@ -139,55 +142,59 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //------------------------------------------------Animación apartado nosotros---------------------------------
+window.onload = function() {
+  const canvasNosotros = document.getElementById("bolitasCanvasn");
+  if (!canvasNosotros) return;
 
-const canvasn = document.getElementById("bolitasCanvasn");
-const ctxn = canvasn.getContext("2d");
-const containern = document.querySelector(".apartado2n");
+  const ctxNosotros = canvasNosotros.getContext("2d");
+  const containerNosotros = document.querySelector(".apartado2n");
 
-let bolitasn = [];
+  let bolitasNosotros = [];
 
-function resizeCanvasn() {
-  canvasn.width = containern.offsetWidth;
-  canvasn.height = containern.offsetHeight;
-}
-resizeCanvasn();
-window.addEventListener("resize", resizeCanvasn);
-
-// -----------------bolitas random
-function crearBolitasn(num) {
-  bolitasn = [];
-  for (let i = 0; i < num; i++) {
-    bolitasn.push({
-      x: Math.random() * canvasn.width,
-      y: Math.random() * canvasn.height,
-      r: Math.random() * 50 + 30,
-      dx: (Math.random() - 0.5) * 1,
-      dy: (Math.random() - 0.5) * 1,
-    });
+  function resizeCanvasNosotros() {
+    canvasNosotros.width = containerNosotros.offsetWidth;
+    canvasNosotros.height = containerNosotros.offsetHeight;
   }
-}
-crearBolitasn(70);
+  resizeCanvasNosotros();
+  window.addEventListener("resize", resizeCanvasNosotros);
 
-// ---------------------animar
-function animarn() {
-  ctxn.clearRect(0, 0, canvasn.width, canvasn.height);
-  ctxn.fillStyle = "rgba(32, 96, 141, 0.13)";
-  
-  for (let b of bolitasn) {
-    ctxn.beginPath();
-    ctxn.arc(b.x, b.y, b.r, 0, Math.PI * 2);
-    ctxn.fill();
+  function crearBolitasNosotros(num) {
+    bolitasNosotros = [];
+    for (let i = 0; i < num; i++) {
+      bolitasNosotros.push({
+        x: Math.random() * canvasNosotros.width,
+        y: Math.random() * canvasNosotros.height,
+        r: Math.random() * 30 + 15,
+        dx: (Math.random() - 0.5) * 1.5,
+        dy: (Math.random() - 0.5) * 1.5
+      });
+    }
+  }
+  crearBolitasNosotros(50);
 
-    b.x += b.dx;
-    b.y += b.dy;
+  function animarBolitasNosotros() {
+    ctxNosotros.clearRect(0, 0, canvasNosotros.width, canvasNosotros.height);
+    ctxNosotros.fillStyle = "rgba(32, 96, 141, 0.13)";
 
-    if (b.x < 0 || b.x > canvasn.width) b.dx *= -1;
-    if (b.y < 0 || b.y > canvasn.height) b.dy *= -1;
+    for (let b of bolitasNosotros) {
+      ctxNosotros.beginPath();
+      ctxNosotros.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+      ctxNosotros.fill();
+
+      b.x += b.dx;
+      b.y += b.dy;
+
+      if (b.x < 0 || b.x > canvasNosotros.width) b.dx *= -1;
+      if (b.y < 0 || b.y > canvasNosotros.height) b.dy *= -1;
+    }
+
+    requestAnimationFrame(animarBolitasNosotros);
   }
 
-  requestAnimationFrame(animarn);
-}
-animarn();
+  animarBolitasNosotros();
+};
+
+
 
 //------------------------------------------------Ver en tamaño completo cer-----------------------------------
 function toggleFullScreen1() {
@@ -221,21 +228,18 @@ function validateForm() {
   if (response.length === 0) {
     $('.msg-error').text("El reCAPTCHA es obligatorio");
     $msgError.addClass("error-text");
-    return false; // Evitar que el formulario se envíe
+    return false; 
   } else {
     $('.msg-error').text('');
     $msgError.removeClass("error-text");
-    return true; // Permitir el envío del formulario
+    return true;
   }
 }
 
 $('#contact-form').submit(function(event) {
-  // Evitar el envío automático del formulario
   event.preventDefault();
   
-  // Llamar a la función de validación del reCAPTCHA
   if (validateForm()) {
-    // Si el reCAPTCHA se validó correctamente, enviar el formulario manualmente
     this.submit();
   }
 });

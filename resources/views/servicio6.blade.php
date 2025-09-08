@@ -12,6 +12,9 @@
         <h1 class="whitefont">Cursos de operación de robots</h1>
       </div>
     </div>
+    <div>
+      <a href="Servicios" class="btnvolver"><img src="img/iconos/arrow-left.png" alt="">Volver a servicios</a>
+    </div>
     <div class="apartado1s6">
       <div class="apartado1s6p1">
         <img src="img/iconos/logos3.png" alt="" class="imglogosb">
@@ -32,6 +35,33 @@
       <img src="img/galeria/teachingcompas/teaching8.jpeg" alt="" class="">
       <img src="img/galeria/c8.jpg" alt="" class="">
       <img src="img/galeria/teachingcompas/teaching6.jpeg" alt="" class="">             
+    </div>
+    <div class="apartado2s6">
+      <div class="apartado2s6p1">
+        <h4 class="azulfont">Capacitación</h4>
+        <br />
+        <br />
+        <h5 class="azulfont">Operación de robots</h5>
+        <p class="lead justify linea-izq">
+          Ofrecemos cursos de operación y manejo de robots Fanuc con Software, 
+          Spot Tool, Handling Tool, Servogun, desensamble mecánico, entre otros.
+        </p>
+        <br />
+        <h5 class="azulfont">Cursos</h5>
+        <p class="lead justify linea-izq">
+          <ul>
+            <li class="lead">Curso de operación de robots Fanuc.</li>
+            <li class="lead">Curso de programación de robot Fanuc (intermedio y avanzado).</li>
+            <li class="lead">Curso de programación de robot ABB.</li>
+            <li class="lead">Curso de Spot Tool con Servogun (avanzado).</li>
+            <li class="lead">Curso de mantenimiento eléctrico (intermedio y avanzado).</li>
+          </ul>
+        </p>
+        <br />
+      </div>
+      <div class="apartado2s6p2">
+        <img src="img/galeria/teachingcompas/teaching4.jpeg" alt="">
+      </div>
     </div>
   </div>
 @endsection

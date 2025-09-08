@@ -12,6 +12,9 @@
         <h1 class="whitefont">Servicio y mantenimiento a robots industriales</h1>
       </div>
     </div>
+    <div>
+      <a href="Servicios" class="btnvolver"><img src="img/iconos/arrow-left.png" alt="">Volver a servicios</a>
+    </div>
     <div class="apartado1s1">
       <div class="apartado1s1p1">
         <img src="img/iconos/logos4.png" alt="" class="imglogosb">
@@ -33,10 +36,10 @@
       <img src="img/galeria/reductores/reductor4.jpeg" alt="6">
     </div>
     <br />
-    <br />
     <div class="apartado2s1">
-      <div>
-        <h4 class="center azulfont">Mantenimiento y reparación</h4>
+      <div class="apartado2s1p1">
+        <h4 class="azulfont">Mantenimiento y reparación</h4>
+        <br />
         <br />
         <h5 class="azulfont">Mantenimiento a Servoguns y equipos especiales</h5>
         <p class="lead justify linea-izq">

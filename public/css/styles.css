@@ -28,6 +28,20 @@
     padding: 0.6em;
 } 
 
+.btnvolver{
+    padding: 0.7em;
+    margin: 0.5em;
+    border-radius: 15px;
+    background-color: #0f2547;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnvolver:hover{
+    background-color: rgb(231,76,61,1);
+    color: #fff;
+}
+
 /*-----------------------------------------To top button-----------------------------------------*/
 
 #scrollToTopBtn{
@@ -472,12 +486,14 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .links:hover{
    color: rgba(231,76,61,1);
+   transform:scale(1.1);
 }
 
 .servicio1{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
     border-radius: 3%;
     overflow: hidden;
+    height: 15em;
 }
 
 .imgss1{
@@ -495,6 +511,7 @@ body.bodycontacto div.collapse li:nth-child(5) a
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
     border-radius: 3%;
     overflow: hidden;
+    height: 15em;
 }
 
 .imgss2{
@@ -503,12 +520,16 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 10em;
     background-position: 0em -11em;
     background-size:cover;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3), 
+        0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .servicio3{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
     border-radius: 3%;
     overflow: hidden;
+    height: 15em;
 }
 
 .imgss3{
@@ -517,12 +538,16 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 10em;
     background-position: 0em -11em;
     background-size:cover;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3), 
+        0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .servicio4{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
     border-radius: 3%;
     overflow: hidden;
+    height: 15em;
 }
 
 .imgss4{
@@ -531,12 +556,16 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 10em;
     background-position: 0em -5em;
     background-size:cover;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3), 
+        0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .servicio5{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
     border-radius: 3%;
     overflow: hidden;
+    height: 15em;
 }
 
 .imgss5{
@@ -545,12 +574,16 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 10em;
     background-position: 0em -5em;
     background-size:cover;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3), 
+        0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .servicio6{
     box-shadow: 0 10px 20px rgba(0,0,0,0.22);
     border-radius: 3%;
     overflow: hidden;
+    height: 15em;
 }
 
 .imgss6{
@@ -559,6 +592,9 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 10em;
     background-position: 0em -9em;
     background-size:cover;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.3), 
+        0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .apartado3sp2{
@@ -579,10 +615,6 @@ body.bodycontacto div.collapse li:nth-child(5) a
     height: 6em;
     -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.264));
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.252));
-}
-
-.boxcli{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219);
 }
 
 /*----------------------------------------------SERVICIOS 1--------------------------------------------*/
@@ -663,6 +695,27 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .collage img:nth-child(6) {
     object-position: 0em -5em;
+}
+
+.apartado2s1{
+    display: flex;
+    padding: 4em;
+    position: relative;
+}
+
+.apartado2s1p1{
+    padding: 2em;
+    background-color: #dbe1eb;
+    align-self: flex-start;
+    margin-right: -3em;
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+}
+
+.apartado2s1 img {
+    z-index: 1; 
+    width: 35em;
+    height: 35em;
 }
 
 /*----------------------------------------------SERVICIOS 2--------------------------------------------*/
@@ -746,6 +799,31 @@ body.bodycontacto div.collapse li:nth-child(5) a
     object-position: 0em -2em;
 }
 
+.apartado2s2{
+    display: flex;
+    padding: 4em;
+    position: relative;
+}
+
+.apartado2s2p1{
+    padding: 2em 5em 2em 2em;
+    background-color: #dbe1eb;
+    align-self: flex-start;
+    margin-right: -2em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22); 
+}
+
+.apartado2s2 iframe {
+    z-index: 2; 
+    height:100%;
+    width:100%;
+}
+
+.video-s2{
+    width: 35em;
+    height: 28em;
+}
+
 /*----------------------------------------------SERVICIOS 3-------------------------------------------*/
 .titulo .imgs3{
     display: block;
@@ -826,6 +904,27 @@ body.bodycontacto div.collapse li:nth-child(5) a
     object-position: 0em -6em;
 }
 
+.apartado2s3{
+    display: flex;
+    padding: 4em;
+    position: relative;
+}
+
+.apartado2s3p1{
+    padding: 2em;
+    background-color: #dbe1eb;
+    align-self: flex-start;
+    margin-right: -3em;
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+}
+
+.apartado2s3 img {
+    z-index: 1; 
+    width: 35em;
+    height: 35em;
+}
+
 /*----------------------------------------------SERVICIOS 4-------------------------------------------*/
 
 .titulo .imgs4{
@@ -900,6 +999,26 @@ body.bodycontacto div.collapse li:nth-child(5) a
     object-position: 0em 0em;
 }
 
+.apartado2s4{
+    display: flex;
+    padding: 4em;
+    position: relative;
+}
+
+.apartado2s4p1{
+    padding: 2em;
+    background-color: #dbe1eb;
+    align-self: flex-start;
+    margin-right: -3em;
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+}
+
+.apartado2s4 img {
+    z-index: 1; 
+    width: 35em;
+    height: 35em;
+}
 /*----------------------------------------------SERVICIOS 5--------------------------------------------*/
 
 .titulo .imgs5{
@@ -975,6 +1094,31 @@ body.bodycontacto div.collapse li:nth-child(5) a
 
 .collage5 img:nth-child(5) {
     object-position: 0em -4em;
+}
+
+.apartado2s5{
+    display: flex;
+    padding: 4em;
+    position: relative;
+}
+
+.apartado2s5p1{
+    padding: 2em 5em 2em 2em;
+    background-color: #dbe1eb;
+    align-self: flex-start;
+    margin-right: -2em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22); 
+}
+
+.apartado2s5 video {
+    z-index: 2; 
+    height:100%;
+    width:100%;
+}
+
+.video-s5{
+    width: 35em;
+    height: 28em;
 }
 /*----------------------------------------------SERVICIOS 6-------------------------------------------*/
 
@@ -1066,6 +1210,26 @@ body.bodycontacto div.collapse li:nth-child(5) a
     object-position: 0em -5em;
 }
 
+.apartado2s6{
+    display: flex;
+    padding: 4em;
+    position: relative;
+}
+
+.apartado2s6p1{
+    padding: 2em;
+    background-color: #dbe1eb;
+    align-self: flex-start;
+    margin-right: -3em;
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+}
+
+.apartado2s6 img {
+    z-index: 1; 
+    width: 35em;
+    height: 30em;
+}
 /*----------------------------------------------NOSOTROS---------------------------------------------*/
 
 .titulo .imgn{
@@ -1080,8 +1244,6 @@ body.bodycontacto div.collapse li:nth-child(5) a
 .contenedorn {
     position: relative;
     padding: 3em 7em;
-    border-radius: 2em;
-    overflow: hidden;
 }
 
 .apartado1nimg{
@@ -1094,51 +1256,40 @@ body.bodycontacto div.collapse li:nth-child(5) a
     padding: 1em 1em 0 0;
 }
 
-.apartado2n{
-    padding: 0 3em 3em 3em;
-    position: relative;
-    width: 100%;
-    min-height: 80vh;
-    overflow: hidden;
-}
-
-#bolitasCanvasn {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
 .apartado1n div {
     position: relative;
     z-index: 2;
 }
 
-.img1np2{
-    width: 40em;
-    height: 25em;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: aparecerimg1np2 2s forwards;
-    animation-delay: 0.5s;
+.apartado2n{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    padding: 3em;
+    overflow: hidden;
+    background: #fff;
 }
 
-@keyframes aparecerimg1np2 {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+#bolitasCanvasn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.apartado2n h4,
+.apartado2n h5,
+.apartado2n p,
+.apartado2n ul {
+    position: relative;
+    z-index: 2;
 }
 
 .linea-izq {
-  border-left: 3px solid #20608d; 
-  padding-left: 10px;            
+    border-left: 3px solid #20608d; 
+    padding-left: 10px;            
 }
 
 .apartado1np2{
@@ -1354,6 +1505,41 @@ body.bodycontacto div.collapse li:nth-child(5) a
     border-radius: 2em;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.363);
     overflow: hidden;  
+}
+
+.apartado1p::before,
+.apartado1p::after {
+    content: "";
+    position: absolute;
+    width: 30em;
+    height: 30em;
+    background: rgba(32, 96, 141, 0.13);
+    border-radius: 50% 40% 60% 50%;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.apartado1p::before {
+    top: -50px;
+    left: -100px;
+    animation: aparecerIzqt 1.2s ease-out forwards;
+}
+
+.apartado1p::after {
+    bottom: -50px;
+    right: -100px;
+    background: rgba(32, 96, 141, 0.205);
+    animation: aparecerDer 1.2s ease-out forwards;
+}
+
+@keyframes aparecerIzqt {
+  0% { transform: translateX(-100px) scale(0); opacity: 0; }
+  100% { transform: translateX(0) scale(1); opacity: 0.6; }
+}
+
+@keyframes aparecerDer {
+  0% { transform: translateX(100px) scale(0); opacity: 0; }
+  100% { transform: translateX(0) scale(1); opacity: 0.6; }
 }
 /*----------------------------------------------FOOTER----------------------------------------------*/
 
