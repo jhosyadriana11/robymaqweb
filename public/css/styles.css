@@ -454,6 +454,91 @@ body.bodycontacto div.collapse li:nth-child(5) a
     padding: 3em;
 }
 
+.apartado2s{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding: 1em 4em 1em 4em;
+}
+
+.servicio1{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+   
+}
+
+.imgss1{
+    background-image: url('../img/galeria/servicio1.jpg');
+    width: 100%;
+    height: 10em;
+    background-position: 0em -4em;
+    background-size:cover;
+}
+
+.servicio2{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+  
+}
+
+.imgss2{
+    background-image: url('../img/galeria/teachingcompas/teaching10.jpeg');
+    width: 100%;
+    height: 10em;
+    background-position: 0em -11em;
+    background-size:cover;
+}
+
+.servicio3{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+  
+}
+
+.imgss3{
+    background-image: url('../img/galeria/jatco/jatco6.jpeg');
+    width: 100%;
+    height: 10em;
+    background-position: 0em -11em;
+    background-size:cover;
+}
+
+.servicio4{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+  
+}
+
+.imgss4{
+    background-image: url('../img/galeria/estructuras/estructuraf2.jpeg');
+    width: 100%;
+    height: 10em;
+    background-position: 0em -5em;
+    background-size:cover;
+}
+
+.servicio5{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+  
+}
+
+.imgss5{
+    background-image: url('../img/galeria/coherix/coherix4.jpg');
+    width: 100%;
+    height: 10em;
+    background-position: 0em -5em;
+    background-size:cover;
+}
+
+.servicio6{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.22);
+  
+}
+
+.imgss6{
+    background-image: url('../img/galeria/teachingcompas/teaching7.jpeg');
+    width: 100%;
+    height: 10em;
+    background-position: 0em -9em;
+    background-size:cover;
+}
+
 .apartado3sp2{
     display: flex;
     gap: 1em;

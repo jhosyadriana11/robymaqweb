@@ -17,8 +17,45 @@
 			que se manejan, puede llamar al número proporcionado y con gusto le atenderemos.</p>
 		</div>
 		<div class="apartado2s">
-
+			<div class="servicio1">
+				<div class="imgss1"></div>
+				<div class="center">
+					<h5>Servicio y mantenimiento a robots industriales</h5>
+				</div>
+			</div>
+			<div class="servicio2">
+				<div class="imgss2"></div>
+				<div class="center">
+					<h5>Servicio de programación de robots</h5>
+				</div>
+			</div>
+			<div class="servicio3">
+				<div class="imgss3"></div>
+				<div class="center">
+					<h5>Servicio de diseño de herramentales de robots (EOAT)</h5>
+				</div>
+			</div>
+			<div class="servicio4">
+				<div class="imgss4"></div>
+				<div class="center">
+					<h5>Diseño y fabricación de estructuras</h5>
+				</div>
+			</div>
+			<div class="servicio5">
+				<div class="imgss5"></div>
+				<div class="center">
+					<h5>Integración y automatización</h5>
+				</div>
+			</div>
+			<div class="servicio6">
+				<div class="imgss6"></div>
+				<div class="center">
+					<h5>Cursos de operación de robots</h5>
+				</div>
+			</div>
 		</div>
+		<br />
+		<br />
 		<div class="apartado3s">	
 			<div class="apartado3sp1">
 				<h4 class="azulfont center">Algunos de nuestros clientes</h4>
